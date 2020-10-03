@@ -24,11 +24,18 @@ ul, li {
 }
 
 body {
-
+  font-size: 16px;
+  line-height: 150%;
 }
 
 a {
   color: inherit;
   display: inline-block;
   text-decoration: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
