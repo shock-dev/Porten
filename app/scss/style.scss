@@ -177,6 +177,7 @@
 
 
 .news {
+  padding: 120px 0 140px;
 
   &__inner {
     display: grid;
@@ -208,6 +209,21 @@
     color: #D0D0D0;
   }
 
+}
+
+
+.brands {
+  background: $light-black;
+  padding: 60px 0 80px;
+
+  .title {
+    margin-bottom: 40px;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 
