@@ -80,6 +80,14 @@
     align-items: center;
   }
 
+  &__logo {
+    transition: opacity .3s;
+
+    &:hover {
+      opacity: .7;
+    }
+  }
+
   &__menu {
     min-height: 100%;
   }
