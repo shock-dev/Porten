@@ -1,0 +1,69 @@
+.header {
+
+  // Header top
+  &__top-inner {
+    font-size: 12px;
+    line-height: 16px;
+    color: $gray;
+    min-height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__top-inner__list {
+    display: flex;
+  }
+
+  &__top-inner__item {
+    padding-right: 14px;
+    margin-right: 14px;
+  }
+
+  &__top-inner__item:not(:last-child) {
+    border-right: 1px solid $gray;
+  }
+
+  &__top-inner__link {
+    transition: color .3s;
+  }
+
+  &__top-inner__link.phone {
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-right: 15px;
+      fill: $gray;
+      transition: fill .3s;
+    }
+  }
+
+  &__top-inner__link:hover {
+    color: $white;
+
+    svg {
+      fill: $white;
+    }
+  }
+
+  &__top-auth {
+    display: flex;
+    align-items: center;
+    transition: color .3s;
+
+    svg {
+      margin-right: 10px;
+      fill: $gray;
+      transition: fill .3s;
+    }
+  }
+
+  &__top-auth:hover {
+    color: $white;
+
+    svg {
+      fill: $white;
+    }
+  }
+}
