@@ -1,0 +1,46 @@
+.old {
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+
+  &__img {
+    max-width: 880px;
+    width: 100%;
+    background-image: url('../img/old-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &__content {
+    padding: 100px 0;
+    width: 1040px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__desc {
+    font-size: 14px;
+    line-height: 21px;
+    max-width: 470px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  &__link {
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    transition: all .3s;
+
+    &:hover {
+      color: #000;
+      background-color: #fff;
+    }
+  }
+}

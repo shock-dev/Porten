@@ -1,0 +1,10 @@
+.brands {
+  background: #0F0F0F;
+  padding: 60px 0 80px;
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+  }
+
+}

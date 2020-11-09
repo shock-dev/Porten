@@ -1,0 +1,17 @@
+.news {
+  padding: 120px 0 110px;
+
+  &__title {
+    margin-bottom: 80px;
+  }
+
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__card {
+    margin-bottom: 40px;
+  }
+}

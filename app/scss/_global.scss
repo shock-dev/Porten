@@ -52,3 +52,55 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.title {
+  font-family: 'PlayfairDisplay', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  position: relative;
+  margin-bottom: 40px;
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    background: #FFFFFF;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
+.card {
+  font-family: 'PlayfairDisplay', sans-serif;
+
+  &__img {
+    width: 260px;
+    height: 325px;
+    background: #191B1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+
+  &__title {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  &__price {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+  }
+}
