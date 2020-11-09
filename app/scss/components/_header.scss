@@ -66,4 +66,62 @@
       fill: $white;
     }
   }
+
+  // header bottom
+
+  &__bottom {
+    background-color: #0F0F0F;
+  }
+
+  &__bottom-inner {
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__menu {
+    min-height: 100%;
+  }
+
+  &__bottom-items {
+    display: flex;
+    align-items: center;
+  }
+
+  &__menu-list {
+    display: flex;
+    height: 100%;
+    margin-right: 42px;
+  }
+
+  &__menu-link {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 23px;
+    text-transform: uppercase;
+    transition: background-color .3s;
+
+    &.active {
+      background-color: #1F1F1F;
+    }
+
+    &:hover {
+      background-color: #1F1F1F;
+    }
+  }
+
+  &__bottom-button {
+    transition: opacity .3s;
+  }
+
+  &__bottom-button:hover {
+    opacity: .7;
+  }
+
+  &__bottom-button:not(:last-child) {
+    margin-right: 40px;
+  }
+
 }

@@ -44,6 +44,13 @@ img {
   max-width: 100%;
 }
 
+.btn-reset {
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
