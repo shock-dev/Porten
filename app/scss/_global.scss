@@ -24,11 +24,7 @@ ul, li {
 }
 
 body {
-  font-size: 16px;
-  line-height: 150%;
-  @extend %PTSans-400;
-  color: $white;
-  background-color: $black;
+
 }
 
 a {
@@ -37,31 +33,12 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
-}
-
-.title {
-  font-size: 36px;
-  line-height: 48px;
-  @extend %PD-700;
-  text-transform: uppercase;
-  text-align: center;
-  padding-bottom: 40px;
-  position: relative;
-  margin-bottom: 80px;
-
-  &:after {
-    content: '';
-    width: 120px;
-    background-color: #fff;
-    height: 1px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-  }
 }
