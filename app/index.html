@@ -9,6 +9,57 @@
 </head>
 <body>
 
+  <div class="mobile-menu active">
+    <div class="close"></div>
+
+    <nav class="mobile-menu__nav">
+      <ul class="mobile-menu__list">
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link" href="#">Понравилось</a>
+        </li>
+
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link" href="#">личный кабинет</a>
+        </li>
+
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link" href="#">настройки</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="mobile-menu__buttons">
+      <button class="mobile-menu__button cart btn-reset">
+        <img src="img/search-icon.svg" alt="Искать что-нибудь">
+      </button>
+      <button class="mobile-menu__button search btn-reset">
+        <img src="img/cart-icon.svg" alt="Проверить корзину">
+      </button>
+    </div>
+
+    <ul class="mobile-menu__info-list">
+      <li>
+        <a class="mobile-menu__info-link phone" href="tel:88121234567">
+          <svg width="14" height="14">
+            <use href="img/sprite.svg#phone"></use>
+          </svg>
+          <span>8 (812) 123-45-67</span>
+        </a>
+      </li>
+      <li>Работаем 7 дней в неделю</li>
+      <li>9:00 — 18:00</li>
+    </ul>
+
+    <div class="mobile-menu__auth">
+      <a class="header__top-auth" href="#">
+        <svg width="14" height="14">
+          <use href="img/sprite.svg#auth"></use>
+        </svg>
+        <span>Войти / Регистрация</span>
+      </a>
+    </div>
+  </div>
+
   <header class="header">
     <div class="header__top">
       <div class="container">
