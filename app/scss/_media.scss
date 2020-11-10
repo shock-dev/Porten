@@ -47,14 +47,35 @@
     }
   }
 
+  .old__title {
+    padding-bottom: 28px;
+    margin-bottom: 30px;
+  }
+
+  .old__desc {
+    margin-bottom: 40px;
+  }
+
+  .old__link {
+    font-size: 14px;
+  }
+
   .collection__info {
     padding: 50px 0;
+  }
+
+  .old__content {
+    padding: 50px 15px;
   }
 }
 
 
 @media (max-width: 830px) {
   .collection__new {
+    height: 500px;
+  }
+
+  .old__img {
     height: 500px;
   }
 
@@ -81,6 +102,10 @@
     min-height: calc(100vh - 80px);
   }
 
+  .old__img {
+    height: 400px;
+  }
+
 
 }
 
@@ -102,6 +127,10 @@
   .collection__new {
     height: 430px;
     background-position: left;
+  }
+
+  .old__img {
+    height: 300px;
   }
 
   .title {
