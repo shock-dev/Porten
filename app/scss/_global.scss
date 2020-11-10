@@ -79,10 +79,11 @@ img {
 
 .card {
   font-family: 'PlayfairDisplay', sans-serif;
+  width: 260px;
 
   &__img {
-    width: 260px;
-    height: 325px;
+    width: 100%;
+    min-height: 325px;
     background: #191B1C;
     display: flex;
     justify-content: center;
