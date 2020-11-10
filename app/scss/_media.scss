@@ -32,7 +32,10 @@
 @media (max-width: 1140px) {
   .news__items {
     grid-template-columns: repeat(3, minmax(260px, 1fr));
-    justify-content: center;
+
+    .card {
+      justify-self: center;
+    }
   }
 
   .brands__items {
@@ -99,6 +102,21 @@
       padding-bottom: 20px;
     }
   }
+
+  .news {
+    padding: 40px 0;
+
+    &__title {
+      margin-bottom: 40px;
+      padding-bottom: 25px;
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  .news__items {
+    grid-template-columns: repeat(2, minmax(260px, 1fr));
+  }
 }
 
 
@@ -143,8 +161,12 @@
   .old__img {
     height: 400px;
   }
+}
 
-
+@media (max-width: 580px) {
+  .news__items {
+    grid-template-columns: repeat(1, minmax(260px, 1fr));
+  }
 }
 
 @media (max-width: 500px) {
@@ -206,5 +228,6 @@
 
   .footer__btn {
     padding: 10px 6px;
+    font-size: 10px;
   }
 }
