@@ -39,6 +39,18 @@
     justify-content: space-around;
     flex-wrap: wrap;
   }
+
+  .footer__top-inner {
+    flex-wrap: wrap;
+  }
+
+  .footer__col {
+    margin-bottom: 30px;
+  }
+
+  .footer__about {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -113,6 +125,12 @@
   }
 }
 
+@media (max-width: 732px) {
+  .footer__col {
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 640px) {
   .header__top {
     display: none;
@@ -184,5 +202,9 @@
   .collection__new-title {
     padding-bottom: 15px;
     margin-bottom: 26px;
+  }
+
+  .footer__btn {
+    padding: 10px 6px;
   }
 }
