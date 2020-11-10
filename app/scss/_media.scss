@@ -35,4 +35,50 @@
   .header__bottom-items {
     display: none;
   }
+
+  .burger {
+    display: block;
+  }
+}
+
+@media (max-width: 640px) {
+  .header__top {
+    display: none;
+  }
+
+  .hero__inner {
+    min-height: calc(100vh - 80px);
+  }
+}
+
+@media (max-width: 500px) {
+  .hero__rect {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 60px;
+
+    &-title {
+      font-size: 54px;
+    }
+
+    &-city {
+      font-size: 19px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .hero__rect {
+    width: 260px;
+    height: 250px;
+    margin-bottom: 40px;
+
+    &-title {
+      font-size: 50px;
+    }
+
+    &-city {
+      font-size: 17px;
+    }
+  }
 }
