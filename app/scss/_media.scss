@@ -36,12 +36,8 @@
 }
 
 @media (max-width: 1140px) {
-  .news__items {
-    grid-template-columns: repeat(3, minmax(260px, 1fr));
-
-    .card {
-      justify-self: center;
-    }
+  .news__items .card {
+      width: calc(100% / 12 * 4 - 46px);
   }
 
   .brands__items {
@@ -120,8 +116,8 @@
 }
 
 @media (max-width: 860px) {
-  .news__items {
-    grid-template-columns: repeat(2, minmax(260px, 1fr));
+  .news__items .card {
+      width: calc(100% / 12 * 6 - 46px);
   }
 }
 
@@ -170,8 +166,8 @@
 }
 
 @media (max-width: 580px) {
-  .news__items {
-    grid-template-columns: repeat(1, minmax(260px, 1fr));
+  .news__items .card {
+    width: calc(100% - 46px);
   }
 }
 

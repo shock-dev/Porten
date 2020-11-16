@@ -6,17 +6,13 @@
   }
 
   &__items {
-    //display: flex;
-    //flex-wrap: wrap;
-    //justify-content: space-between;
-    display: grid;
-    //grid-template-columns: repeat(4, 1fr);
-    //justify-content: space-between;
-    grid-gap: 40px 23px;
-    grid-template-columns: repeat(4, minmax(260px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    margin: -20px -23px;
   }
 
-  &__card {
-    //margin-bottom: 40px;
+  .card {
+    margin: 20px 23px;
+    width: calc(100% / 12 * 3 - 46px);
   }
 }
