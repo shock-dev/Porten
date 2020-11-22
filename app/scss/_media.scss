@@ -119,6 +119,10 @@
   .news__items .card {
       width: calc(100% / 12 * 6 - 46px);
   }
+
+  .collection__card {
+    width: calc(100% - 50px);
+  }
 }
 
 

@@ -1,6 +1,10 @@
 .news {
   padding: 120px 0 110px;
 
+  &__container {
+    padding: 0 23px;
+  }
+
   &__title {
     margin-bottom: 80px;
   }
